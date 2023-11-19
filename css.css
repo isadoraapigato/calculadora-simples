@@ -1,0 +1,29 @@
+div{
+  padding: 5px;
+}
+button{
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+#igual{
+  width: 140px;
+  background-color: rgb(122, 156, 242);
+}
+body{
+  text-align: center;
+  background-color: rgb(215, 250, 243);
+}
+
+#visor{
+  width: 280px;
+  height: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 60px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  text-align: right;
+}

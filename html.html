@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="javascript.js"></script>
+    <link href="css.css" rel="stylesheet">
+</head>
+<body>   
+    <h1>Calculadora</h1>    
+    <div>
+    <input id="visor" type="text" value="0">
+    </div>
+    <div id="line1">
+    <button id="ponto" onclick="enviaPonto()">.</button>
+    <button id="raiz" onclick="raizQuad()">Raiz</button>
+    <button id="potencia" onclick="potencia()">x<sup>n</sup></button>
+    <button id="divisao" onclick="divisao()">/</button>
+    </div>
+    
+    <div id="line2">
+    <button id="sete" onclick="enviaSete()">7</button>
+    <button id="oito" onclick="enviaOito()">8</button>
+    <button id="nove" onclick="enviaNove()">9</button>
+    <button id="multiplicacao" onclick="multiplicacao()">X</button>
+    </div>
+    <div id="line3">
+    <button id="quatro" onclick="enviaQuatro()">4</button>    
+    <button id="cinco" onclick="enviaCinco()">5</button>
+    <button id="seis" onclick="enviaSeis()">6</button>    
+    <button id="subtracao" onclick="subtracao()">-</button>
+    </div>
+    <div id="line4">
+    <button id="um" onclick="enviaUm()">1</button>    
+    <button id="dois" onclick="enviaDois()">2</button>
+    <button id="tres" onclick="enviaTres()">3</button>
+    <button id="adicao" onclick="adicao()">+</button>
+    </div>
+    <div id="line5">
+    <button id="apaga" onclick="apaga()">DEL</button>    
+    <button id="zero" onclick="enviaZero()">0</button>    
+    <button id="igual" onclick="igual()">=</button>
+    </div>
+</body>
+</html>
